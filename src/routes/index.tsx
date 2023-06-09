@@ -20,6 +20,10 @@ export default function MyRoutes() {
           element: <Recommend />,
         },
         {
+          path: "/singers",
+          element: <Singers />,
+        },
+        {
           path: "/rank",
           element: <Rank />,
         },
